@@ -1,0 +1,37 @@
+.header-user-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 1rem;
+    transform: scaleX(-1);
+}
+
+.header {
+    background-color: #e87474;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-title {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.header-link:hover {
+    color: #61dafb;
+}
